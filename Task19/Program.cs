@@ -10,7 +10,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 Palindrom (num);
 void Palindrom (int n)
 {
-    if (n >= 10000 && n <= 99999)
+    if (n >= 10000 && n <= 99999 || n >= -99999 && n <= -10000 )
      {
         int a = n % 10;
         int b = (n / 10) % 10;
